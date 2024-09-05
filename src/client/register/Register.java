@@ -16,6 +16,7 @@ public class Register {
         register.nextLine();
 
         FileWriter writer = new FileWriter("C:\\Users\\Wesley\\Documents\\estudos java\\teste\\clients.csv", true);
+        writer.write("name,age,phone,gender,\n");
 
         /*
          *Pegando dados de usuarios:
@@ -32,7 +33,7 @@ public class Register {
             String gender = register.next();
 
 
-            String data = age + "," + name + "," + age + "," + phone + "," + gender + "\n";
+            String data = name + "," + age + "," + phone + "," + gender + "\n";
             writer.write(data);
         }
         writer.close(); //Fecha o arquivo
