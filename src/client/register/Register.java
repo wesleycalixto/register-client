@@ -17,7 +17,7 @@ public class Register {
         register.nextLine();
 
         // Caminho do arquivo CSV
-        String filePath = "C:\\Users\\Wesley\\Documents\\estudos java\\teste\\clients.csv";
+        String filePath = System.getProperty("user.home").concat( "\\Documents\\clients.csv");
         File file = new File(filePath);
 
 
