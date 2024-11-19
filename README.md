@@ -11,6 +11,7 @@ Este projeto foi desenvolvido com o objetivo de praticar Java 15 e trabalhar com
 
 - Cadastro de clientes via terminal.
 - Armazenamento dos dados em um arquivo `.csv`.
+- Realiza o cadastro de quantos clientes desejar!
 
 ## 🚀 Como Executar
 
@@ -20,3 +21,4 @@ Este projeto foi desenvolvido com o objetivo de praticar Java 15 e trabalhar com
 2. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/seu-projeto.git
+
